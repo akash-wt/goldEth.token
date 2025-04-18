@@ -1,2 +1,15 @@
 [profile.ci.fuzz]
 runs = 10_000
+
+[profile.default]
+auto_detect_remappings = true
+
+
+[fmt]
+line_length = 100
+tab_width = 4
+bracket_spacing = true
+int_types = "short"
+multiline_func_header = "params_first"
+quote_style = "double"
+number_underscore = "thousands"
